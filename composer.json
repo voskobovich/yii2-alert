@@ -1,0 +1,38 @@
+{
+  "name": "voskobovich/yii2-alert",
+  "description": "Toolkit to manage the flash messages for Yii2",
+  "keywords": [
+    "alert",
+    "toolkit",
+    "yii2",
+    "helper",
+    "widget",
+    "flash",
+    "message"
+  ],
+  "homepage": "https://github.com/voskobovich/yii2-alert",
+  "type": "yii2-widget",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/voskobovich/yii2-alert/issues",
+    "source": "https://github.com/voskobovich/yii2-alert"
+  },
+  "authors": [
+    {
+      "name": "Vitaly Voskobovich",
+      "email": "vitaly@voskobovich.com",
+      "homepage": "http://voskobovich.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "voskobovich\\alert\\helpers\\": "helpers",
+      "voskobovich\\alert\\widgets\\": "widgets"
+    }
+  }
+}
