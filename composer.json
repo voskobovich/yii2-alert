@@ -31,8 +31,8 @@
   },
   "autoload": {
     "psr-4": {
-      "voskobovich\\alert\\helpers\\": "helpers",
-      "voskobovich\\alert\\widgets\\": "widgets"
+      "voskobovich\\alert\\helpers\\": "src/helpers",
+      "voskobovich\\alert\\widgets\\": "src/widgets"
     }
   }
 }
